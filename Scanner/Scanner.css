@@ -1,0 +1,38 @@
+/* Scanner Box */
+.scanner-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: #2c3e50;
+    height: 300px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 18px;    
+}
+
+.scanner-section {
+    background-color: #1abc9c;
+    padding: 20px;
+    border-radius: 10px;
+    width: 45%;
+    margin-bottom: 20px; /* Adds spacing when stacking */
+}
+.scanner-section h2 {
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+}   
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .scanner-section {
+        width: 100%; /* Full width on small screens */
+        margin-bottom: 20px; /* Add spacing between sections */
+    }}
+
+    @media (max-width: 480px) {
+        .scanner-box {
+            font-size: 16px; /* Adjust font size for smaller screens */
+        }
+    }

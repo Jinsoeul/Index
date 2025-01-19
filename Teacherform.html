@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form with Scanner</title>
+   <link rel="stylesheet" href="Form.css">  
+</head>
+<body>
+    <div class="container">
+        <!-- Form Section -->
+        <div class="form-section">
+            <h2>Teacher Form</h2>
+            <form>
+                <!-- Subject-->
+                <div class="form-group">
+                    <label for="subject">Subject</label>
+                    <input type="text" id="subject" name="subject" placeholder="e.g., IAS1" required>
+                </div>
+                <!-- Activity -->
+                <div class="form-group">
+                    <label for="activity">Activity</label>
+                    <input type="text" id="activity" name="activity" placeholder="e.g., quiz" required>
+                </div>
+                <!-- Score -->
+                <div class="form-group">
+                    <label for="score">Score</label>
+                    <input type="number" id="score" name="score" placeholder="e.g., 20" required>
+                </div>
+                <!-- Meeting -->
+                <div class="form-group">
+                    <label for="meeting">Meeting</label>
+                    <input type="text" id="meeting" name="meeting" placeholder="e.g., 1st meeting" required>
+                </div>
+                <button type="submit" class="submit-btn" id="submitBtn">Submit</button>
+            </form>
+        </div>
+    <script src="Teacher.js"></script>
+</body>
+</html>
